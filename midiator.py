@@ -1,8 +1,19 @@
-'''
-The mediator pattern is a way of making different things talk to each other without knowing too much about each other. Imagine you have a bunch of friends who want to play a game together, but they don’t have each other’s phone numbers. How can they communicate and decide what game to play, where to meet, and when to start? One way is to use a mediator, which is someone who knows everyone’s phone numbers and can pass messages between them. The mediator can also help them agree on the rules of the game and make sure everyone is ready to play. The mediator is like a middleman who helps the friends coordinate their actions.
+"""
+The mediator pattern is a way of making different things talk to each other without knowing too much about each other.
+Imagine you have a bunch of friends who want to play a game together, but they don’t have each other’s phone numbers.
+How can they communicate and decide what game to play, where to meet, and when to start? One way is to use a mediator,
+which is someone who knows everyone’s phone numbers and can pass messages between them. The mediator can also help them
+agree on the rules of the game and make sure everyone is ready to play. The mediator is like a middleman who helps the
+friends coordinate their actions.
 
-In Python, you can use the mediator pattern to create a class that acts as a mediator for other classes. For example, let’s say you have a class called Player that represents a friend who wants to play a game, and a class called Game that represents the game they want to play. The Player class has methods like join_game, send_message, and receive_message that allow it to interact with the game and other players. The Game class has methods like add_player, remove_player, broadcast_message, and start_game that allow it to manage the players and the game logic. The Mediator class is the one that connects the Player and Game classes and handles the communication between them.
-'''
+In Python, you can use the mediator pattern to create a class that acts as a mediator for other classes.
+For example, let’s say you have a class called Player that represents a friend who wants to play a game,
+and a class called Game that represents the game they want to play. The Player class has methods like join_game,
+send_message, and receive_message that allow it to interact with the game and other players.
+The Game class has methods like add_player, remove_player, broadcast_message, and start_game that allow it to manage the
+players and the game logic. The Mediator class is the one that connects the Player and Game classes and handles the
+communication between them.
+"""
 
 
 # The Mediator class that acts as a middleman between players and games
