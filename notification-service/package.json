@@ -1,0 +1,16 @@
+{
+    "name": "ts_patterns",
+    "version": "1.0.0",
+    "description": "",
+    "main": "service.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "bun index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/bun": "^1.1.0"
+    }
+}
